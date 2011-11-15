@@ -1,0 +1,224 @@
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000059  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000059  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000056  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000056  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000059  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000056  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000056  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:06:47 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000059  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000059  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000059  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000056  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000056  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000059  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000053  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000056  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000056  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000058  Запись уже существует    ZPA2005  MAN
+
+19.11.2008 12:08:35 - Error
+From: 00000050 ROLFNET\SVDERENDYAEV 
+Message: 00000059  Запись уже существует    ZPA2005  MAN
+

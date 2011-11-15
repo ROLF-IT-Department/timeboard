@@ -1,0 +1,16 @@
+/** в случае успешной записи здесь должна быть чистка отправленных записей  **/
+/*
+            int i = 0;
+            for(i=0; i<ManagementMethod.Count; i++)
+                result += "Date=" + ManagementMethod[i].Date_Day + " - " + "EmployeeID=" + ManagementMethod[i].Employee_Id + " - " + "Hours=" + ManagementMethod[i].Hours.ToString() + "<br>";
+
+            result += "<br>MethodT13<br>";
+
+            for (i = 0; i < MethodT13.Count; i++)
+                result += "Date=" + MethodT13[i].Date_Day + " - " + "EmployeeID=" + MethodT13[i].Employee_Id + " - " + "Hours=" + MethodT13[i].Hours.ToString() + "<br>";
+
+            result += "<br>Diversity<br>";
+
+            for (i = 0; i < DiversityTable.Count; i++)
+                result += "Date=" + DiversityTable[i].Date_Day + " - " + "EmployeeID=" + DiversityTable[i].Employee_Id + " - " + "Hours=" + DiversityTable[i].Hours.ToString() + " - " + "Type=" + DiversityTable[i].Type_Payment + "<br>";
+            */

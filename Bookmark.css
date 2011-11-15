@@ -1,0 +1,101 @@
+﻿/**
+ * Основная таблица стилей заметок к бизнес-цели.
+ */
+
+body {
+ 	background-color: #F0F0F0;
+ 	margin: 0px;
+	padding: 0px;
+}
+
+.task {
+	padding: 5px 10px;
+}
+.task-label {
+	line-height: 150%;
+	font-weight: bold;
+}
+
+.task-description {
+	padding: 0 4px;
+	border: 1px solid #CCCCCC;
+	height: 40px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+.notes {
+	position: absolute;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	top: 90px;
+	bottom: 138px;
+	width: 100%;
+	height: 270px;
+	overflow: scroll;
+	overflow-x: hidden;
+	left: -2px;
+}
+.notes-table {
+	width: 100%;
+	/*table-layout: fixed;*/
+	background-color: #FFDDBB;
+}
+.notes-table td {
+	padding-left: 2px;
+}
+.notes-field-num {
+	width: 15px;
+	height: 15px;
+	font-size: 80%;
+	
+}
+.notes-field-fio {
+	width: 200px;
+	height: 15px;
+	font-size: 80%;
+
+}
+.notes-field-date-record {
+	padding-right: 20px;
+	font-size: 80%;
+	text-align: right;
+
+}
+.notes-field-text {
+	border-bottom: 1px solid #AAAAAA;
+	background-color: #FFFFFF;
+}
+.notes-field-text div {
+	border: 1;
+	width: 100%;
+	height: 68px;
+	overflow: auto;
+	background-color: transparent;
+}
+
+.newnote {
+	position: absolute;
+	padding: 10px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.newnote-label {
+	line-height: 150%;
+	font-weight: bold;
+}
+.newnote-field-text {
+}
+.newnote-field-text textarea {
+	border: 1px solid #CCCCCC;
+	width: 100%;
+	height: 68px;
+	overflow: auto;
+	z-index: 0;
+}
+.newnote-submit {
+	padding-top: 4px;
+	text-align: center;
+}
+

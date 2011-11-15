@@ -1,0 +1,248 @@
+﻿body 
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #FDFDFD;
+}
+
+.main_table
+{
+	width: 100%; 
+	border: 0;
+	
+}
+
+.ddl_period
+{
+	width: 120px;
+	font-family: 'Trebuchet MS' , 'Times New Roman';
+	color: #000000;
+	font-size: 8pt;
+	font-weight: bold;
+	position: relative;
+	top: 2px;
+}
+
+.period_header
+{
+	height: 30px;
+	background-color: #DDDDDD;
+}
+
+
+.period
+{
+	font-family: 'Trebuchet MS', 'Times New Roman';
+	color: #000000;
+	font-size: 12px;	
+	font-weight:bold;
+	padding-left: 0px;
+}
+
+.main_menu
+{
+	height: 50px;	
+}
+
+.main_info
+{
+	background-color: #F8F8F8;
+	border-bottom: #808080 1px solid;
+}
+
+.square_column
+{
+	width: 30px;	
+}
+
+.square_info
+{
+	font-family: 'Trebuchet MS' , 'Times New Roman';
+	color: #000000;
+	font-size: 11pt;
+	width: 100px;
+	vertical-align: middle;
+	padding-left: 20px;
+	text-align:left ;
+}
+
+.columns
+{
+	height: 30px;
+	background-color: #E4E4E4;
+}
+
+
+.post
+{
+	width: 110px;
+	font-family: 'Trebuchet MS' , 'Times New Roman';
+	color: #000000;
+	font-size: 10pt;	
+	font-weight:bold;
+	border-right: 2px solid #808080;
+	border-bottom: #808080 1px solid;
+}
+
+.tab_num
+{
+	width: 80px;
+	font-family: 'Trebuchet MS' , 'Times New Roman';
+	color: #000000;
+	font-size: 10pt;	
+	font-weight:bold;
+	border-right: 2px solid #808080;
+	border-bottom: #808080 1px solid;
+}
+
+.fio
+{
+	width: 110px;
+	font-family: 'Trebuchet MS' , 'Times New Roman';
+	color: #000000;
+	font-size: 10pt;	
+	font-weight:bold;
+	border-bottom: #808080 1px solid;
+}
+
+
+.days
+{
+
+	border-bottom: #808080 1px solid;
+	text-align: center;
+}
+
+.days_panel
+{
+	vertical-align: middle;
+	text-align:center;
+}
+
+.day_number
+{
+	font-family: 'Trebuchet MS' , 'Times New Roman';
+	color: #000000;	
+	font-size: 8pt;	
+	/*font-weight:bold;*/
+}
+
+.filter_div
+{
+	border: 1px #AAAAAA solid; 
+	background-color: #F8F8F8; 
+	font-family: 'Trebuchet MS' , 'Times New Roman';
+	font-size: 10pt;
+	width: 200px; 
+	height: 60px; 
+	z-index: 1; 
+	position: absolute; 
+	
+	text-align: center; 
+	cursor: pointer; 
+	cursor:hand;
+} 
+
+
+.department_list
+{
+	width: 100%;
+	height: 20px;
+    background-color: #E4E4E4;	
+	border-bottom: #C0C0C0 1px solid;
+    
+}
+
+.department_name 
+{
+	font-family: 'Trebuchet MS' , 'Times New Roman';
+	font-size: 10pt;	
+	font-weight: bold;
+	cursor: hand; 
+	cursor: pointer;
+}
+
+
+
+.employee
+{
+	width: 100%;
+	height: 80px;
+    font-family: 'Trebuchet MS' , 'Times New Roman';
+    font-size: 10pt;	
+	border-bottom: #C0C0C0 1px solid;
+    
+}
+
+.employee_post
+{
+	width: 105px;
+	font-family: 'Trebuchet MS' , 'Times New Roman';
+	font-size: 10pt;
+	text-align: center;	
+	border-right: 2px solid #C0C0C0;
+
+}
+
+.employee_id
+{
+	width: 80px;
+	font-family: 'Trebuchet MS' , 'Times New Roman';
+	font-size: 10pt;
+	text-align: center;		
+	border-right: 2px solid #C0C0C0;
+}
+
+.employee_name
+{
+	width: 110px;
+	font-family: 'Trebuchet MS' , 'Times New Roman';
+	text-align: center;	
+	font-size: 10pt;	
+	border-right: 4px solid #C0C0C0;
+}
+
+.panel
+{
+	/*width: 100%;
+	height: 600px;	
+	overflow: auto;*/
+	background-color: #F8F8F8;
+	
+}
+
+.sum_timetable
+{
+	width:20px; 
+	height: 16px; 
+	border: 1px #818181 solid; 
+	text-align: center; 
+	background-color: #ECEDD3; 
+	color: #000000; 
+	font-size: 8pt;
+		
+}
+
+
+.redundant
+{
+	font-size: 8pt;
+	font-family: 'Trebuchet MS' , 'Times New Roman';
+	color: Red;
+	font-style: italic;
+}
+
+
+.help_sap
+{
+	border: 1px #AAAAAA solid; 
+	background-color: #FFFFE1; 
+	font-family: 'Trebuchet MS' , 'Times New Roman';
+	font-size: 10px;
+	width: 400px; 
+	height: 200px; 
+	z-index: 1; 
+	position: absolute; 
+	text-align: justify; 
+
+} 

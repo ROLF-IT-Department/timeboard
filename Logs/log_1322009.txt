@@ -1,0 +1,68 @@
+13.02.2009 17:51:15 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295   табельный номер(а) блокировать не удалось    IT2010  DIV
+
+13.02.2009 17:51:15 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295   табельный номер(а) блокировать не удалось    IT2010  DIV
+
+13.02.2009 17:51:15 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295   табельный номер(а) блокировать не удалось    IT2010  DIV
+
+13.02.2009 17:59:49 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00038554   табельный номер(а) блокировать не удалось    IT2005  T13
+
+13.02.2009 17:59:49 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00038554   табельный номер(а) блокировать не удалось    IT2005  T13
+
+13.02.2009 17:59:49 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295   табельный номер(а) блокировать не удалось    IT2010  DIV
+
+13.02.2009 17:59:49 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295   табельный номер(а) блокировать не удалось    IT2010  DIV
+
+13.02.2009 17:59:49 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295   табельный номер(а) блокировать не удалось    IT2010  DIV
+
+13.02.2009 18:01:02 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00038554  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+13.02.2009 18:01:02 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00038554  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+13.02.2009 18:01:02 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295   табельный номер(а) блокировать не удалось    IT2010  DIV
+
+13.02.2009 18:01:02 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295   табельный номер(а) блокировать не удалось    IT2010  DIV
+
+13.02.2009 18:01:02 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295   табельный номер(а) блокировать не удалось    IT2010  DIV
+
+13.02.2009 18:03:18 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00038554  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+13.02.2009 18:03:18 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00038554  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+13.02.2009 18:03:47 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00038554  Вставить данные из-за коллизии невозможно    IT2005  T13
+
+13.02.2009 18:03:47 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00038554  Вставить данные из-за коллизии невозможно    IT2005  T13
+

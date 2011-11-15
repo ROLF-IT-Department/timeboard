@@ -1,0 +1,96 @@
+﻿body 
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #FDFDFD;
+}
+
+/* Настройка ссылок*/
+a:link { text-decoration: none;	color: #ff0000;} 
+a:visited { text-decoration: none; color: #ff0000; } 
+a:active { text-decoration: none; color: #ff0000; }
+a:hover{ text-decoration: underline; color: #ff0000;}
+
+
+
+.header_table
+{
+	padding: 0px;
+	width: 100%;
+}
+
+.logo
+{
+
+	height: 80px;
+	border-bottom: solid 1px #B5B5B5;
+	background: #F7F7F7 url("App_Resources/top_grad.bmp") repeat-x bottom;
+}
+
+.menu
+{
+	height: 28px;
+	border-bottom: solid 1px #BDBDBD;
+	background: url("App_Resources/menu_button.bmp") repeat-x bottom;
+}
+
+.menu_bottom
+{
+	height: 30px;
+	background: url("App_Resources/mbottom.bmp") repeat-x;
+}
+
+.rolf_logo
+{
+	padding-left: 10px;	
+}
+
+.exit
+{
+	font-family: 'Lucida Console','Trebuchet MS', 'Times New Roman';
+	color: #ff0000;
+	font-size: 10pt;
+	padding-right: 60px;
+}
+
+.menu_button
+{
+	font-family: 'Lucida Console', 'Trebuchet MS', 'Times New Roman';
+	color: #ff0000;
+	font-size: 10pt;
+	width: 134px;
+	height: 28px;
+	cursor: hand;
+	cursor: pointer;
+	border-bottom: solid 1px #BDBDBD;
+	border-right: solid 1px #808080;
+	background: url("App_Resources/menu_button.bmp") repeat-x bottom;
+		
+}
+
+
+.bottom_table
+{
+	padding: 0px;
+	width: 100%;
+	font-family: 'Blackadder ITC' , 'Trebuchet MS' , 'Times New Roman';
+	color: #808080;
+	font-size: 10pt;
+	position:static;
+}
+
+.bottom
+{
+	height: 70px;
+	background: url("App_Resources/bottom.bmp") repeat-x top;	
+}
+
+.copyright
+{
+	width: 300px;
+}
+
+.contact
+{
+	width: 300px;
+}

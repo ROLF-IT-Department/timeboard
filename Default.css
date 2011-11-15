@@ -1,0 +1,72 @@
+﻿.main_table
+{
+	width: 700px;
+	height: 533px;
+	background-image: url('App_Resources/clock.jpg'); 
+	background-repeat: no-repeat; 
+	margin-top: 100px;	
+}
+
+.inputtext {
+	BORDER-RIGHT: #919191 1px solid;
+	BORDER-TOP: #919191 1px solid;
+	BACKGROUND: url('App_Resources/txt-bg.jpg');
+	BORDER-LEFT: #919191 1px solid; 
+	WIDTH: 150px; 
+	BORDER-BOTTOM: #919191 1px solid; 
+	HEIGHT: 25px;
+	font-family: 'Trebuchet MS', 'Times New Roman';
+	color: #000000;
+	font-size: 12pt;	
+	font-weight: bold;
+}
+
+
+.main_div
+{
+	width: 300px;
+	height: 200px;
+	margin-top: 100px;
+	margin-left: 50px;	
+}
+
+.col_size
+{
+	height: 35px;	
+}
+
+.tb_size
+{
+	width: 150px;
+	font-family: 'Trebuchet MS', 'Times New Roman';
+	color: #000000;
+	font-size: 12pt;	
+	font-weight: bold;
+	border: 1px solid #000000;
+}
+
+.caption
+{
+	font-family: 'Trebuchet MS', 'Times New Roman';
+	color: #555555;
+	font-size: 12pt;	
+	font-weight: bold;
+}
+
+h1
+{
+	font-family: 'Trebuchet MS', 'Times New Roman';
+	color: #555555;
+}
+
+.bt_enter
+{
+	width: 80px;
+	height: 25px;
+	font-family: 'Trebuchet MS', 'Times New Roman';
+	color: #FFFFFF;	
+	font-size: 10pt;	
+	font-weight: bold;
+	background-color: #BBBBBB;
+	border: 1px solid #555555;
+}

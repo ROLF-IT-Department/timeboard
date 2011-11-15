@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ClassName="SAPConnector" TargetDirectory="c:\inetpub\wwwroot\webtabel_getdata" Namespace="webtabel_getdata" Type="JavaMetaDataProvider" ToolsDir="C:\Program Files\SAP\SAP .NET Connector for VisualStudio 2003\" xmlns="http://tempuri.org/ProxyAppInput.xsd">
+  <Destination>
+    <Client>105</Client>
+    <AppServerHost>rolf-sap-rld</AppServerHost>
+    <Language />
+    <Username>ROLFTIMETBL</Username>
+    <SystemNumber>0</SystemNumber>
+    <LogonGroup />
+    <MsgServerHost />
+    <SAPSystemName />
+    <Type>3</Type>
+  </Destination>
+  <Modules Name="ZITC_RFC_GET_PERNR" />
+  <Modules Name="ZITC_RFC_GET_FEATURE" />
+  <Modules Name="ZITC_RFC_GET_DATA_FROM_PORTAL" />
+</Settings>

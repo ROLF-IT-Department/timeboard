@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>ТАБЕЛЬ</title>
+    <link type="text/css" href="MasterPage.css" rel="Stylesheet" />
+    <link type="text/css" href="MainForm.css" rel="Stylesheet" />
+    <script type="text/javascript" src="JS/TimeTable.js"></script>
+    <script type="text/javascript" src="JS/jquery-1.2.6.js"></script>
+    <style>
+        BODY 
+        {
+            scrollbar-face-color: #E1E1E1; 
+            scrollbar-highlight-color: #f3f3f3;
+            scrollbar-shadow-color: white;
+            scrollbar-arrow-color: black;
+            scrollbar-track-color: #F1F1F1;
+        }
+    </style>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    
+</head>
+<body>
+
+<table class="header_table" id="header_table" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td class="logo" colspan="5"><img alt="" src="App_Resources/logo2.bmp" class="rolf_logo" />&nbsp;</td>
+    </tr>
+    <!-- Таблица главного меню-->
+    <tr>
+        <td>
+            <asp:Label ID="MenuBar" runat="server" Text=""></asp:Label>
+            
+        </td>
+    </tr>
+    <tr>
+        <td class="menu_bottom" colspan="5">&nbsp;</td>
+    </tr>
+
+    <tr style="width: auto;">
+        <td colspan="5">
+            <form id="form1" runat="server" >
+            <div style="width: 100%; height: 550px">
+                <asp:contentplaceholder id="ContentPlaceHolder1" runat="server" >
+                </asp:contentplaceholder>
+            </div>
+            </form>
+        </td>
+   </tr>
+   
+    <tr>
+        <td class="bottom" colspan="5">&nbsp;</td>
+    </tr>
+    <tr>
+        <td>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr class="bottom_table">
+                    <td  class="copyright" align="center" valign="top"><img alt="" src="App_Resources/copyright.bmp" /> <span style="font-family: Times New Roman">2008</span>, ЗАО РОЛЬФ Холдинг </td>
+                    <td  valign="top" colspan="3">&nbsp;</td>
+                    <td  class="contact" align="center" valign="top">По вопросам обращаться<br/> в отдел поддержки ИС</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>    
+    
+    
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+01.03.2009 23:57:36 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295   табельный номер(а) блокировать не удалось    IT2010  DIV
+
+01.03.2009 23:57:36 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295   табельный номер(а) блокировать не удалось    IT2010  DIV
+
+01.03.2009 23:57:36 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295   табельный номер(а) блокировать не удалось    IT2010  DIV
+
+01.03.2009 23:58:46 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295  Запись уже существует    ZPA2005  MAN
+
+01.03.2009 23:58:46 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295  Запись уже существует    ZPA2005  MAN
+
+01.03.2009 23:58:46 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295  Запись уже существует    ZPA2005  MAN
+
+01.03.2009 23:58:46 - Error
+From: 00036386 ROLFNET\SVDERENDYAEV 
+Message: 00023295  Запись уже существует    ZPA2005  MAN
+
