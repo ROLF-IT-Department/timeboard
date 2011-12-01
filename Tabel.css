@@ -166,13 +166,16 @@
 
 .employee
 {
+	border:0;
+	padding:0;
+	border-collapse: collapse;
 	width: 100%;
 	height: 80px;
     font-family: 'Trebuchet MS' , 'Times New Roman';
     font-size: 10pt;	
 	border-bottom: #C0C0C0 1px solid;
-    
 }
+.employee td {padding:0}
 
 .employee_post
 {
@@ -201,6 +204,10 @@
 	font-size: 10pt;	
 	border-right: 4px solid #C0C0C0;
 }
+
+.employee_status  img{padding-bottom:5px;}
+.employee_name_div img , .employee_name_div span {cursor: hand; cursor: pointer;}
+#sectors, #departments {display:block}
 
 .panel
 {

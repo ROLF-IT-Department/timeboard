@@ -7,8 +7,6 @@
     <title>ТАБЕЛЬ</title>
     <link type="text/css" href="MasterPage.css" rel="Stylesheet" />
     <link type="text/css" href="MainForm.css" rel="Stylesheet" />
-    <script type="text/javascript" src="JS/TimeTable.js"></script>
-    <script type="text/javascript" src="JS/jquery-1.2.6.js"></script>
     <style>
         BODY 
         {
@@ -66,9 +64,8 @@
             </table>
         </td>
     </tr>
-</table>    
-    
-    
-
+</table>
+<script type="text/javascript" src="JS/jquery-1.2.6.js"></script>
+<script type="text/javascript" src="JS/TimeTable.js"></script>
 </body>
 </html>

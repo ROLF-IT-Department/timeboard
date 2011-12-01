@@ -4,9 +4,6 @@
 // PROGRESS BAR
 //var progress_bar = new Control.ProgressBar('progress_bar',{ interval: 0.15 });
 
-
-
-
 var iIntervalId;
 var iLoopCounter = 1;
 var iMaxLoop = 6;
@@ -48,18 +45,13 @@ function HideEmployeeList(dep_id)
             //span.innerText = "Идет загрузка ";
             //span.style.color = "#666666";
             //span.style.fontSize = 14;
-            
             iIntervalId = window.setInterval("iLoopCounter=UpdateProgressMeter(iLoopCounter, iMaxLoop)", 500);
-            
-            
         }
         img.src = 'App_Resources/minus.bmp';
         img.alt = 'Свернуть';
         div.style.display = 'block';
-       
-    }
-    
-    
+		updateTables();
+    }    
 }
 
 function UpdateProgressMeter(iCurrentLoopCounter, iMaximumLoops)
@@ -113,6 +105,7 @@ function ClientCallback(result, context)
          loading.style.display = "none";
         //alert(DepID);
         //alert(html);
+		updateTables();
 }
 
 
@@ -315,7 +308,7 @@ function onCloseClick()
 function ClientNavigateCallback(result, context)
 {
     var url = result;
-    window.navigate(url);
+    window.location.href = url;
 }
 
 function onFilterStatusClick(status)
@@ -632,6 +625,14 @@ function SaveBookmark()
 
 function ClientBookmarkCallback(result, context)
 {
-    window.navigate(result);
+    window.location(result);
+}
 
+function updateTables()
+{
+	$('.sch_hr .day_number').mouseover(function(){
+		ShowFilter("helpsap", event.clientX + document.body.scrollLeft, event.clientY + document.body.scrollTop);
+	}).mouseout(function(){
+		HideBlock("helpsap");
+	});
 }

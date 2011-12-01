@@ -76,7 +76,7 @@ public partial class _Default : System.Web.UI.Page, ICallbackEventHandler
 
             if (argum.Contains("department"))
             {
-                result_html = "<div id='departments' style='display:block'>";
+                result_html = "<div id='departments'>";
                 foreach (Department dep in departments)
                 {
                     result_html += disp.DisplayDepartmentName(dep.DepartmentName, dep.DepartmentID, StartDateOfPeriod);
@@ -86,10 +86,10 @@ public partial class _Default : System.Web.UI.Page, ICallbackEventHandler
             }
             else
             {
-                result_html = "<div id='departments' style='display:block'>";
+                result_html = "<div id='departments'>";
                 foreach (Sector sec in sectors)
                 {
-                    result_html += "<div id='sectors' style='display:block'>" + disp.DisplaySectorName(sec.SectorName, sec.SectorID, StartDateOfPeriod) + "</div>";
+                    result_html += "<div id='sectors'>" + disp.DisplaySectorName(sec.SectorName, sec.SectorID, StartDateOfPeriod) + "</div>";
                     result_html += "<div  id='" + sec.SectorID + "' style='display:none'></div>";
                 }
                 result_html += "</div>";
@@ -156,8 +156,8 @@ public partial class _Default : System.Web.UI.Page, ICallbackEventHandler
             string scount = count.ToString();
             if (count == 0) scount = "&nbsp;";
 
-            html += "<table cellpadding='0' cellspacing='0' border='0' class='employee'><tr><td class='employee_status'><img alt='" + alt_status + "' src='App_Resources/" + img_status + "' style='padding-bottom:5px;'><div class='bookmark' onclick='window.open(\"Bookmark.aspx?eid=" + em.EmployeeID + "&rid=" + this.role + "\",\"_blank\",\"menubar=no,width=400,height=510,resizable=no,scrollbars=no\")'><span class='comment_count'>" + scount + "</span></div>" + checkbox + "</td><td class='employee_post'><div class='employee_post_div' title='" + em.Post + "'>" + em.Post + "</div></td><td class='employee_id'>" + DeleteZeroFromEmployeeID(em.EmployeeID) + "</td><td class='employee_name'><div class='employee_name_div' title='" + em.FullName + "'><img src='App_Resources/person.gif' style='cursor: hand; cursor: pointer;'>&nbsp<span style='cursor: hand; cursor: pointer;'  onclick='window.open(\"" + getCardUrl(em) + "\",\"_blank\",\"menubar=no,width=800,height=600,resizable=yes,scrollbars=yes\")'>" + em.FullName + CheckRedundantEmployee(em) + "</span></div></td><td>" + disp.DisplaySchedules(count_days, 18, em, role, this.check, is_closed_emp, month, year) + "</td></tr></table>";  
-            
+            html += "<table class='employee'><tr><td class='employee_status'><img alt='" + alt_status + "' src='App_Resources/" + img_status + "'><div class='bookmark' onclick='window.open(\"Bookmark.aspx?eid=" + em.EmployeeID + "&rid=" + this.role + "\",\"_blank\",\"menubar=no,width=400,height=510,resizable=no,scrollbars=no\")'><span class='comment_count'>" + scount + "</span></div>" + checkbox + "</td><td class='employee_post'><div class='employee_post_div' title='" + em.Post + "'>" + em.Post + "</div></td><td class='employee_id'>" + DeleteZeroFromEmployeeID(em.EmployeeID) + "</td><td class='employee_name'><div class='employee_name_div' title='" + em.FullName + "'><img src='App_Resources/person.gif'>&nbsp;<span onclick='window.open(\"" + getCardUrl(em) + "\",\"_blank\",\"menubar=no,width=800,height=600,resizable=yes,scrollbars=yes\")'>" + em.FullName + CheckRedundantEmployee(em) + "</span></div></td><td>" + disp.DisplaySchedules(count_days, 18, em, role, this.check, is_closed_emp, month, year) + "</td></tr></table>";
+           
         }
 
         html += "||";

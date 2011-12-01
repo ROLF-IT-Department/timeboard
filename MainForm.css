@@ -251,17 +251,23 @@
 	font-family: 'Trebuchet MS' , 'Times New Roman';
 	color: #000000;	
 	font-size: 8pt;	
+	text-align:center;
+	display:block;
 	/*font-weight:bold;*/
 }
 
 .department_list
 {
+	border:0;
+	padding:0;
+	border-collapse: collapse;
 	width: 100%;
 	height: 20px;
     background-color: #E4E4E4;	
 	border-bottom: #C0C0C0 1px solid;
-    
-}
+ }
+ 
+ .department_list td {padding: 0;}
 
 .department_name 
 {
@@ -347,6 +353,9 @@
 	/*background: url(App_Resources/grid_line_center.bmp) repeat-y;*/
 }
 
+.days_table {border:0;padding:0;border-collapse: collapse; width:100%;}
+.days_table td {padding:0;}
+
 .days_table_textbox
 {
 	padding-bottom: 3px;	
@@ -362,10 +371,18 @@
 	padding-bottom: 3px;	
 }
 
-.days_table_schedules
-{
-	
-}
+.days_table_schedules {border:0;padding:0;border-collapse: collapse;}
+.days_table_schedules  td {padding:0;}
+.sch_timetable td, .sch_hr td, .sch_hrdoc td {width:22px; padding-bottom: 2px;}
+.sch_timetable input, .sch_hr input, .sch_hrdoc input {border: 1px #818181 solid;}
+.sch_timetable input {background-color:#EEEEEE}
+.sch_hr div {background-color:#FED7AB;overflow: hidden;}
+.sch_hrdoc input {text-align: center; font-family: "Trebuchet MS" , "Times New Roman"; color: #000000; font-size: 8pt;}
+.pb-2 {padding-bottom: 2px;}
+
+.dim-16 {height:16px; width:16px;}
+.dim-18 {height:18px; width:18px;}
+.timekeeper {text-align:center}
 
 .filter_div
 {

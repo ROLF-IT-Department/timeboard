@@ -42,7 +42,7 @@ public class Display
     // Показываем дни в месяце
     public string DisplayDays(int count_days, int size)
     {
-        string html = "<table cellpadding='0' cellspacing='0' border='0' class='days_table' width='100%'><tr>";
+        string html = "<table class='days_table'><tr>";
         for (int i = 1; i <= count_days; i++)
             html += "<td width='22px'><div style='width: " + size + "px; height: " + size + "px; border: 1px #818181 solid; '><span class='day_number'><b>" + i + "</b></span></div></td>";
         html += "<td><div style='width:30px; height: 18px; border: 1px #818181 solid; text-align: center; background-color: #ECEDD3'><span class='day_number'>Sum</span></div></td></tr></table>";
@@ -52,7 +52,7 @@ public class Display
     // показываем дни в месяце для табеля в отдельном окне
     public string DisplayDaysTabel(int count_days, int size)
     {
-        string html = "<table cellpadding='0' cellspacing='0' border='0' class='days_table' ><tr>";
+        string html = "<table class='days_table' ><tr>";
         for (int i = 1; i <= count_days; i++)
             html += "<td width='18px' style='padding: 1px'><div style='width: " + size + "px; height: " + size + "px; border: 1px #818181 solid; '><span class='day_number'><b>" + i + "</b></span></div></td>";
         html += "<td style='padding: 1px'><div style='width:22px; height: 18px; border: 1px #818181 solid; text-align: center; background-color: #ECEDD3'><span class='day_number'>Sum</span></div></td></tr></table>";
@@ -88,7 +88,7 @@ public class Display
     // формируем html для графиков сотрудников
     public string DisplaySchedules(int count_days, int size, Employee emp, string role, bool check, bool is_closed_emp, string month, string year)
     {
-        string html = "<table cellpadding='0' cellspacing='0' border='0' class='days_table_schedules' >";
+        string html = "<table class='days_table_schedules' >";
         string time = "";
         string day_message = "";
 
@@ -125,9 +125,9 @@ public class Display
             {
                 if (day == count_days) break;
                 time = "";
-                timetable += "<td width='22px' style='padding-bottom: 2px;'><input type='text' class='timekeeper' readonly name='" + emp.EmployeeID + "+" + emp.PostID + "+" + emp.DepartmentID + "+" + emp.BeginDate + "+" + emp.EndDate + "+" + day.ToString() + "' value='' style='width: " + (size - 2) + "px; height: " + (size - 2) + "px; border: 1px #818181 solid; background-color:#EEEEEE' ></td>";
-                hr += "<td width='22px' style='padding-bottom: 2px;'><div title='" + day.ToString() + "' style='width: " + size + "px; height: " + size + "px; border: 1px #818181 solid; background-color:#FED7AB;overflow: hidden; '><span class='day_number'>" + time + "</span></div></td>";
-                hrdoc += "<td width='22px' style='padding-bottom: 2px;'><input type='text' value='' readonly maxlength='5' style='width: " + (size - 2) + "px; height: " + (size - 2) + "px; border: 1px #818181 solid; background-color:#D1E9E9; text-align: center; font-family: 'Trebuchet MS' , 'Times New Roman'; color: #000000; font-size: 8pt;'></td>";
+                timetable += "<td><input type='text' class='timekeeper dim-" + (size - 2) + "' readonly name='" + emp.EmployeeID + "+" + emp.PostID + "+" + emp.DepartmentID + "+" + emp.BeginDate + "+" + emp.EndDate + "+" + day.ToString() + "' value=''></td>";
+                hr += "<td ><div title='" + day.ToString() + "' class='dim-" + size + "'><span class='day_number'>" + time + "</span></div></td>";
+                hrdoc += "<td><input type='text' value='' readonly maxlength='5' class='dim-" + (size - 2) + "'></td>";
                 day++;
             }
 
@@ -166,7 +166,7 @@ public class Display
                         hour_schedule = Convert.ToDecimal(sd.TimeHours);
                     }
                 }
-                hr += "<td width='22px' style='padding-bottom: 2px;'><div onmouseover='ShowFilter(\"helpsap\", event.clientX + document.body.scrollLeft, event.clientY + document.body.scrollTop);'  onmouseout='HideBlock(\"helpsap\");' style='width: " + size + "px; height: " + size + "px; border: 1px #818181 solid; background-color:#FED7AB;overflow: hidden; '><span class='day_number'>" + time + "</span></div></td>";
+                hr += "<td><div class='dim-" + size + "'><span class='day_number'>" + time + "</span></div></td>";
 
             }
             else
@@ -175,13 +175,13 @@ public class Display
                 if (((sch.DaySchedule == "FREE") && (Convert.ToDecimal(sch.TimeHours) == 0)) || (sch.DayScheduleVar == "F"))
                 {
                     time = "В";  // В - в русской раскладке!!!!!!!!
-                    hr += "<td width='22px' style='padding-bottom: 2px;'><div onmouseover='ShowFilter(\"helpsap\", event.clientX + document.body.scrollLeft, event.clientY + document.body.scrollTop);'  onmouseout='HideBlock(\"helpsap\");' style='width: " + size + "px; height: " + size + "px; border: 1px #818181 solid; background-color:#DCB589;overflow: hidden; '><span class='day_number'>" + time + "</span></div></td>";
+                    hr += "<td ><div class='dim-" + size + "' style='background-color:#DCB589;'><span class='day_number'>" + time + "</span></div></td>";
                 }
                 else
                 {
                     time = CheckDecimalNumber(sch.TimeHours.ToString());
                     hour_schedule = Convert.ToDecimal(sch.TimeHours);
-                    hr += "<td width='22px' style='padding-bottom: 2px;'><div onmouseover='ShowFilter(\"helpsap\", event.clientX + document.body.scrollLeft, event.clientY + document.body.scrollTop);'  onmouseout='HideBlock(\"helpsap\");' style='width: " + size + "px; height: " + size + "px; border: 1px #818181 solid; background-color:#FED7AB;overflow: hidden; '><span class='day_number'>" + time + "</span></div></td>";
+                    hr += "<td ><div class='dim-" + size + "'><span class='day_number'>" + time + "</span></div></td>";
                 }
             }
 
@@ -198,7 +198,7 @@ public class Display
             if (time == "В") bgcolor = "#A4C8B7";
 
             if ((hrh != null) && (hrh.NightOverHours != 0)) bgcolor = "#83abdc";
-            hrdoc += "<td width='22px' style='padding-bottom: 2px;'><input type='text' value='" + hr_value + "' name='' readonly maxlength='5' style='width: " + (size - 2) + "px; height: " + (size - 2) + "px; border: 1px #818181 solid; background-color:" + bgcolor + "; text-align: center; font-family: 'Trebuchet MS' , 'Times New Roman'; color: #000000; font-size: 8pt;'></td>";
+            hrdoc += "<td><input type='text' value='" + hr_value + "' name='' readonly maxlength='5' class='dim-" + (size - 2) + "' style='background-color:" + bgcolor + ";'></td>";
 
             // выводим график табельщика
             TimekeeperHours th = current.Find(delegate(TimekeeperHours h) { return h.Day == day.ToString(); });
@@ -234,8 +234,8 @@ public class Display
                     color_check_timekeeper = "red";
                 }
             }
-            if ((role == "1") && (!is_closed_emp)) timetable += "<td width='22px' style='padding-bottom: 2px;'><span class='day_number'><input type='text' class='timekeeper' " + readonle + " value='" + value + "' name='" + emp.EmployeeID + "+" + emp.PostID + "+" + emp.DepartmentID + "+" + emp.BeginDate + "+" + emp.EndDate + "+" + day.ToString() + "' maxlength='5' style='width: " + (size - 2) + "px; height: " + (size - 2) + "px; border: 1px #818181 solid; text-align: center; background-color:" + color_check_timekeeper + "' onblur='CheckHourType(this)'></span></td>";
-            else timetable += "<td width='22px' style='padding-bottom: 2px;'><input type='text' readonly value='" + value + "' name='' style='width: " + (size - 2) + "px; height: " + (size - 2) + "px; border: 1px #818181 solid; text-align: center; background-color:" + color_check + "' ></td>";
+            if ((role == "1") && (!is_closed_emp)) timetable += "<td><span class='day_number'><input type='text' class='timekeeper dim-" + (size - 2) + "' " + readonle + " value='" + value + "' name='" + emp.EmployeeID + "+" + emp.PostID + "+" + emp.DepartmentID + "+" + emp.BeginDate + "+" + emp.EndDate + "+" + day.ToString() + "' maxlength='5' style='background-color:" + color_check_timekeeper + "' onblur='CheckHourType(this)'></span></td>";
+            else timetable += "<td><input type='text' readonly value='" + value + "' name='' class='dim-" + (size - 2) + "'></td>";
 
 
             sum_hour_timekeeper += hour_timekeeper;
@@ -248,15 +248,15 @@ public class Display
         while (day <= count_days)
         {
             time = "";
-            timetable += "<td width='22px' style='padding-bottom: 2px;'><input type='text' class='timekeeper' readonly name='" + emp.EmployeeID + "+" + emp.PostID + "+" + emp.DepartmentID + "+" + emp.BeginDate + "+" + emp.EndDate + "+" + day.ToString() + "' value='' style='width: " + (size - 2) + "px; height: " + (size - 2) + "px; border: 1px #818181 solid; background-color:#EEEEEE' ></td>";
-            hr += "<td width='22px' style='padding-bottom: 2px;'><div title='" + day.ToString() + "' style='width: " + size + "px; height: " + size + "px; border: 1px #818181 solid; background-color:#FED7AB; overflow: hidden;'><span class='day_number'>" + time + "</span></div></td>";
-            hrdoc += "<td width='22px' style='padding-bottom: 2px;'><input type='text' value='' readonly maxlength='5' style='width: " + (size - 2) + "px; height: " + (size - 2) + "px; border: 1px #818181 solid; background-color:#D1E9E9; text-align: center; font-family: 'Trebuchet MS' , 'Times New Roman'; color: #000000; font-size: 8pt;'></td>";
+            timetable += "<td><input type='text' class='timekeeper dim-" + (size - 2) + "' readonly name='" + emp.EmployeeID + "+" + emp.PostID + "+" + emp.DepartmentID + "+" + emp.BeginDate + "+" + emp.EndDate + "+" + day.ToString() + "' value=''></td>";
+            hr += "<td><div title='" + day.ToString() + "' style='width: " + size + "px; height: " + size + "px;'><span class='day_number'>" + time + "</span></div></td>";
+            hrdoc += "<td><input type='text' value='' readonly maxlength='5' class='dim-" + (size - 2) + "' style='background-color:#D1E9E9;'></td>";
             day++;
         }
 
-        html += "<tr>" + timetable + "<td style='padding-bottom: 2px;'><input type='text' value='" + CheckDecimalNumber(sum_hour_timekeeper.ToString()) + "' name='' readonly class='sum_timetable' ></td></tr>";
-        html += "<tr>" + hr + "<td style='padding-bottom: 2px;'><input type='text' value='" + CheckDecimalNumber(sum_hour_schedule.ToString()) + "' name='' readonly class='sum_timetable' ></td></tr>";
-        html += "<tr>" + hrdoc + "<td style='padding-bottom: 2px;'><input type='text' value='" + CheckDecimalNumber(sum_hour_hr.ToString()) + "' name='' readonly class='sum_timetable' ></td></tr>";
+        html += "<tr class='sch_timetable'>" + timetable + "<td class='pb-2'><input type='text' value='" + CheckDecimalNumber(sum_hour_timekeeper.ToString()) + "' name='' readonly class='sum_timetable' ></td></tr>";
+        html += "<tr class='sch_hr'>" + hr + "<td class='pb-2'><input type='text' value='" + CheckDecimalNumber(sum_hour_schedule.ToString()) + "' name='' readonly class='sum_timetable' ></td></tr>";
+        html += "<tr class='sch_hrdoc'>" + hrdoc + "<td class='pb-2'><input type='text' value='" + CheckDecimalNumber(sum_hour_hr.ToString()) + "' name='' readonly class='sum_timetable' ></td></tr>";
 
         html += "</table>";
 
@@ -270,14 +270,14 @@ public class Display
     {
         string dept = getShortDisplayDepartment(department_name);
         string id = "dep|" + departmentID + "|" + period;
-        string html = "<table cellpadding='0' cellspacing='0' border='0' class='department_list'><tr><td width='30px'><img id='square" + departmentID + "' src='App_Resources/plus.bmp'  alt='Развернуть'></td><td align='left' width='750px'><div title='" + department_name + "'><span class='department_name'   onclick='HideEmployeeList(\"" + id + "\")'>" + dept + "</span></div></td><td>&nbsp;</td><td width='200px'><div><span id='ProgressMeterText" + departmentID + "' ></span><span id='ProgressMeter" + departmentID + "' ></span></div></td><td>&nbsp;</td></tr></table>";
+        string html = "<table class='department_list'><tr><td width='30px'><img id='square" + departmentID + "' src='App_Resources/plus.bmp'  alt='Развернуть'></td><td align='left' width='750px'><div title='" + department_name + "'><span class='department_name'   onclick='HideEmployeeList(\"" + id + "\")'>" + dept + "</span></div></td><td>&nbsp;</td><td width='200px'><div><span id='ProgressMeterText" + departmentID + "' ></span><span id='ProgressMeter" + departmentID + "' ></span></div></td><td>&nbsp;</td></tr></table>";
         return html;
     }
 
     public string DisplaySectorName(string sector_name, string sector_id, string period)
     {
         string id = "sec|" + sector_id + "|" + period;
-        string html = "<table cellpadding='0' cellspacing='0' border='0' class='department_list'><tr><td width='30px'><img id='square" + sector_id + "' src='App_Resources/plus.bmp'  alt='Развернуть'></td><td align='left' width='750px'><div title='" + sector_name + "'><span class='department_name'   onclick='HideEmployeeList(\"" + id + "\")'>" + sector_name + "</span></div></td><td>&nbsp;</td><td width='200px'><div><span id='ProgressMeterText" + sector_id + "' ></span><span id='ProgressMeter" + sector_id + "' ></span></div></td><td>&nbsp;</td></tr></table>";
+        string html = "<table class='department_list'><tr><td width='30px'><img id='square" + sector_id + "' src='App_Resources/plus.bmp'  alt='Развернуть'></td><td align='left' width='750px'><div title='" + sector_name + "'><span class='department_name'   onclick='HideEmployeeList(\"" + id + "\")'>" + sector_name + "</span></div></td><td>&nbsp;</td><td width='200px'><div><span id='ProgressMeterText" + sector_id + "' ></span><span id='ProgressMeter" + sector_id + "' ></span></div></td><td>&nbsp;</td></tr></table>";
         return html;
     }
 
